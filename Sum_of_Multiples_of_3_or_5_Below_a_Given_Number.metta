@@ -11,7 +11,7 @@
 (= (sum-multiples-below $n $current $sum)
     ; Check if the current number ($current) is still less than the limit ($n)
     (if (< $current $n)
-        ; If $current is less than $n, continue the recursion:
+        ; If $current is less thn $n, continue the recursion:
         (sum-multiples-below $n 
                              (+ $current 1) ; Increment $current by 1
                              ; Check if $current is a multiple of 3 or 5

@@ -8,7 +8,7 @@
 (= (calculate-even-fibonacci-sum $limit $previous $current $total-sum)
     ; Base case: if the current Fibonacci number exceeds or equals the limit
     (if (>= $current $limit)
-        ; Return the accumulated total sum
+        ; Retrn the accumulated total sum
         $total-sum
         ; Recursive case: continue with the next Fibonacci number
         (calculate-even-fibonacci-sum $limit $current (+ $previous $current)

@@ -1,4 +1,4 @@
-; Function to swap adjacent elements if they are out of order
+; Function to swap adjacnt elements if they are out of order
 (= (bubble-pass $list $sorted)
     (if (empty? (tail $list))
         (cons (head $list) $sorted)  ; Add the last element to the sorted part

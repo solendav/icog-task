@@ -9,7 +9,7 @@
     )
 )
 
-; Define a binary function to add two numbers.
+; Define a binary function to add two numbrs.
 (= (addTwo $x $y)
     (+ $x $y)  ; Add the two arguments.
 )
